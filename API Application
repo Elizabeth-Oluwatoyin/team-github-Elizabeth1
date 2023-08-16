@@ -1,0 +1,56 @@
+{
+	"info": {
+		"_postman_id": "3cb44f27-ea80-459f-ba49-493f5ac380aa",
+		"name": "New Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "24753373",
+		"_collection_link": "https://red-sunset-573311.postman.co/workspace/New-Team-Workspace~e14f2878-3199-4651-9581-bf5f17927123/collection/24753373-3cb44f27-ea80-459f-ba49-493f5ac380aa?action=share&creator=24753373&source=collection_link"
+	},
+	"item": [
+		{
+			"name": "API Application",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code should be 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"\r",
+							"\r",
+							"});\r",
+							"pm.test(\"Status code name should have an OK string\", function () {\r",
+							"    pm.response.to.have.status(\"OK\");\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.postman.com/collections/3865219-8ed1a723-7194-4433-9aef-352e9b86d1e0?access_key=PMAT-01H40M7GCGGGYX7EFK4BFTRHZX",
+					"protocol": "https",
+					"host": [
+						"api",
+						"postman",
+						"com"
+					],
+					"path": [
+						"collections",
+						"3865219-8ed1a723-7194-4433-9aef-352e9b86d1e0"
+					],
+					"query": [
+						{
+							"key": "access_key",
+							"value": "PMAT-01H40M7GCGGGYX7EFK4BFTRHZX"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

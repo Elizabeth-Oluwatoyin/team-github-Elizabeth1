@@ -1,0 +1,595 @@
+{
+	"id": "174f3903-3479-4db4-bdda-f4c7d61f850c",
+	"name": "API APPLICATION WORK",
+	"timestamp": "2023-08-22T12:48:27.053Z",
+	"collection_id": "24753373-9e009090-ed51-4b36-9c80-617eb4651173",
+	"folder_id": 0,
+	"environment_id": "24753373-9cb4c4ab-235a-4689-88b5-d3d8cbe1d7a1",
+	"totalPass": 34,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2023-08-22T12:48:14.856Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "ff21d919-b249-4a1f-95ca-40d171f33f65",
+			"name": "Get All Todo Entries",
+			"url": "https://api.postman.com/collections/3865219-8ed1a723-7194-4433-9aef-352e9b86d1e0?access_key=PMAT-01H40M7GCGGGYX7EFK4BFTRHZX",
+			"time": 2188,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code should be 200": true,
+				"Status code name should have an OK string": true
+			},
+			"testPassFailCounts": {
+				"Status code should be 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name should have an OK string": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				2188
+			],
+			"allTests": [
+				{
+					"Status code should be 200": true,
+					"Status code name should have an OK string": true
+				}
+			]
+		},
+		{
+			"id": "72a1ba4e-ae0d-4559-8ddb-16117f1a66b5",
+			"name": "Get All Entries",
+			"url": "https://api.postman.com/collections/3865219-8ed1a723-7194-4433-9aef-352e9b86d1e0?access_key=PMAT-01H40M7GCGGGYX7EFK4BFTRHZX",
+			"time": 547,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code should be 200": true,
+				"Status code name should have an OK string": true
+			},
+			"testPassFailCounts": {
+				"Status code should be 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name should have an OK string": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				547
+			],
+			"allTests": [
+				{
+					"Status code should be 200": true,
+					"Status code name should have an OK string": true
+				}
+			]
+		},
+		{
+			"id": "da4daa66-04b9-4eb7-b7bd-9908cceb7397",
+			"name": "Get entry per ID",
+			"url": "https://api.postman.com/collections/3865219-8ed1a723-7194-4433-9aef-352e9b86d1e0?access_key=PMAT-01H40M7GCGGGYX7EFK4BFTRHZX",
+			"time": 438,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code should be 200": true,
+				"Status code name should have an OK string": true
+			},
+			"testPassFailCounts": {
+				"Status code should be 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name should have an OK string": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				438
+			],
+			"allTests": [
+				{
+					"Status code should be 200": true,
+					"Status code name should have an OK string": true
+				}
+			]
+		},
+		{
+			"id": "5c8f4fa1-64ac-4b86-a0f5-cc07375f1cc2",
+			"name": "Get entry by valid ID",
+			"url": "https://api.postman.com/collections/3865219-8ed1a723-7194-4433-9aef-352e9b86d1e0?access_key=PMAT-01H40M7GCGGGYX7EFK4BFTRHZX",
+			"time": 457,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				457
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "138c2f1c-0fc8-48cd-861c-65f3f3a108a1",
+			"name": "Get enrty by Invalid ID",
+			"url": "https://api.postman.com/collections/3865219-8ed1a723-7194-4433-9aef-352e9b86d1e0?access_key=PMAT-01H40M7GCGGGYX7EFK4BFTRHZX",
+			"time": 414,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				414
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "40951f4d-e26f-47c6-a0b0-158c140eb834",
+			"name": "Get Books",
+			"url": "https://simple-books-api.glitch.me/books",
+			"time": 988,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code should be 200": true,
+				"Status code name should have an OK string": true
+			},
+			"testPassFailCounts": {
+				"Status code should be 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name should have an OK string": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				988
+			],
+			"allTests": [
+				{
+					"Status code should be 200": true,
+					"Status code name should have an OK string": true
+				}
+			]
+		},
+		{
+			"id": "7c14cda0-c35c-41ba-bed2-551b7289b213",
+			"name": "Get all book",
+			"url": "https://simple-books-api.glitch.me/books",
+			"time": 258,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code should be 200": true,
+				"Status code name should have an OK string": true,
+				"confirm that the name contain The Russian": true,
+				"confirm that the type contain fiction": true
+			},
+			"testPassFailCounts": {
+				"Status code should be 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name should have an OK string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"confirm that the name contain The Russian": {
+					"pass": 1,
+					"fail": 0
+				},
+				"confirm that the type contain fiction": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				258
+			],
+			"allTests": [
+				{
+					"Status code should be 200": true,
+					"Status code name should have an OK string": true,
+					"confirm that the name contain The Russian": true,
+					"confirm that the type contain fiction": true
+				}
+			]
+		},
+		{
+			"id": "9eea6219-e81d-47be-a2c4-f9ae038cb4db",
+			"name": "Get book valid name",
+			"url": "https://simple-books-api.glitch.me/books",
+			"time": 336,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code should be 200": true,
+				"Status code name should have an OK string": true,
+				"confirm that the name contain Viscount Who Loved Me": true
+			},
+			"testPassFailCounts": {
+				"Status code should be 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name should have an OK string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"confirm that the name contain Viscount Who Loved Me": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				336
+			],
+			"allTests": [
+				{
+					"Status code should be 200": true,
+					"Status code name should have an OK string": true,
+					"confirm that the name contain Viscount Who Loved Me": true
+				}
+			]
+		},
+		{
+			"id": "abd75af7-feae-4b3e-85bc-6b9c34ae9f6b",
+			"name": "Get an order",
+			"url": "https://api.postman.com/collections/3865219-8ed1a723-7194-4433-9aef-352e9b86d1e0?access_key=PMAT-01H40M7GCGGGYX7EFK4BFTRHZX",
+			"time": 416,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code should be 200": true,
+				"Status code name should have an OK string": true
+			},
+			"testPassFailCounts": {
+				"Status code should be 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name should have an OK string": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				416
+			],
+			"allTests": [
+				{
+					"Status code should be 200": true,
+					"Status code name should have an OK string": true
+				}
+			]
+		},
+		{
+			"id": "d032ef83-83f2-4e62-9179-9d7f9e55d4ba",
+			"name": "Update an order",
+			"url": "https://api.postman.com/collections/3865219-8ed1a723-7194-4433-9aef-352e9b86d1e0?access_key=PMAT-01H40M7GCGGGYX7EFK4BFTRHZX",
+			"time": 487,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code should be 200": true,
+				"Status code name should have an OK string": true
+			},
+			"testPassFailCounts": {
+				"Status code should be 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name should have an OK string": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				487
+			],
+			"allTests": [
+				{
+					"Status code should be 200": true,
+					"Status code name should have an OK string": true
+				}
+			]
+		},
+		{
+			"id": "241a63ee-ba80-4c17-9404-3ebb87350108",
+			"name": "Delete an order",
+			"url": "https://api.postman.com/collections/3865219-8ed1a723-7194-4433-9aef-352e9b86d1e0?access_key=PMAT-01H40M7GCGGGYX7EFK4BFTRHZX",
+			"time": 448,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code should be 200": true,
+				"Status code name should have an OK string": true
+			},
+			"testPassFailCounts": {
+				"Status code should be 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name should have an OK string": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				448
+			],
+			"allTests": [
+				{
+					"Status code should be 200": true,
+					"Status code name should have an OK string": true
+				}
+			]
+		},
+		{
+			"id": "45e40385-fe6c-41ea-8acd-8563871a6f40",
+			"name": "Register API Client",
+			"url": "https://api.postman.com/collections/3865219-8ed1a723-7194-4433-9aef-352e9b86d1e0?access_key=PMAT-01H40M7GCGGGYX7EFK4BFTRHZX",
+			"time": 457,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code should be 200": true,
+				"Status code name should have an OK string": true
+			},
+			"testPassFailCounts": {
+				"Status code should be 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name should have an OK string": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				457
+			],
+			"allTests": [
+				{
+					"Status code should be 200": true,
+					"Status code name should have an OK string": true
+				}
+			]
+		},
+		{
+			"id": "a0bd1a77-bf8a-416e-b69f-496f962f0c2c",
+			"name": "Get API Status",
+			"url": "https://api.postman.com/collections/3865219-8ed1a723-7194-4433-9aef-352e9b86d1e0?access_key=PMAT-01H40M7GCGGGYX7EFK4BFTRHZX",
+			"time": 413,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code should be 200": true,
+				"Status code name should have an OK string": true
+			},
+			"testPassFailCounts": {
+				"Status code should be 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name should have an OK string": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				413
+			],
+			"allTests": [
+				{
+					"Status code should be 200": true,
+					"Status code name should have an OK string": true
+				}
+			]
+		},
+		{
+			"id": "6e1f9400-1034-4958-be08-97ad24e3a0d2",
+			"name": "API Application",
+			"url": "https://api.postman.com/collections/3865219-8ed1a723-7194-4433-9aef-352e9b86d1e0?access_key=PMAT-01H40M7GCGGGYX7EFK4BFTRHZX",
+			"time": 431,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code should be 200": true,
+				"Status code name should have an OK string": true,
+				"confirm that info contain schema": true,
+				"confirm that name contain Get All Todo Entries": true,
+				"confirm that name contain Get All Entries": true,
+				"confirm that name contain Get entry per ID": true
+			},
+			"testPassFailCounts": {
+				"Status code should be 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name should have an OK string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"confirm that info contain schema": {
+					"pass": 1,
+					"fail": 0
+				},
+				"confirm that name contain Get All Todo Entries": {
+					"pass": 1,
+					"fail": 0
+				},
+				"confirm that name contain Get All Entries": {
+					"pass": 1,
+					"fail": 0
+				},
+				"confirm that name contain Get entry per ID": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				431
+			],
+			"allTests": [
+				{
+					"Status code should be 200": true,
+					"Status code name should have an OK string": true,
+					"confirm that info contain schema": true,
+					"confirm that name contain Get All Todo Entries": true,
+					"confirm that name contain Get All Entries": true,
+					"confirm that name contain Get entry per ID": true
+				}
+			]
+		},
+		{
+			"id": "96efc3b8-57a0-4017-b901-7595fd696751",
+			"name": "New Request",
+			"url": "https://api.postman.com/collections/3865219-8ed1a723-7194-4433-9aef-352e9b86d1e0?access_key=PMAT-01H40M7GCGGGYX7EFK4BFTRHZX",
+			"time": 420,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code should be 200": true,
+				"Status code name should have an OK string": true,
+				"confirm that name contain Get All Todo Entries": true
+			},
+			"testPassFailCounts": {
+				"Status code should be 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name should have an OK string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"confirm that name contain Get All Todo Entries": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				420
+			],
+			"allTests": [
+				{
+					"Status code should be 200": true,
+					"Status code name should have an OK string": true,
+					"confirm that name contain Get All Todo Entries": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 8698,
+	"collection": {
+		"requests": [
+			{
+				"id": "ff21d919-b249-4a1f-95ca-40d171f33f65",
+				"method": "GET"
+			},
+			{
+				"id": "72a1ba4e-ae0d-4559-8ddb-16117f1a66b5",
+				"method": "GET"
+			},
+			{
+				"id": "da4daa66-04b9-4eb7-b7bd-9908cceb7397",
+				"method": "GET"
+			},
+			{
+				"id": "5c8f4fa1-64ac-4b86-a0f5-cc07375f1cc2",
+				"method": "GET"
+			},
+			{
+				"id": "138c2f1c-0fc8-48cd-861c-65f3f3a108a1",
+				"method": "GET"
+			},
+			{
+				"id": "40951f4d-e26f-47c6-a0b0-158c140eb834",
+				"method": "GET"
+			},
+			{
+				"id": "7c14cda0-c35c-41ba-bed2-551b7289b213",
+				"method": "GET"
+			},
+			{
+				"id": "9eea6219-e81d-47be-a2c4-f9ae038cb4db",
+				"method": "GET"
+			},
+			{
+				"id": "abd75af7-feae-4b3e-85bc-6b9c34ae9f6b",
+				"method": "GET"
+			},
+			{
+				"id": "d032ef83-83f2-4e62-9179-9d7f9e55d4ba",
+				"method": "GET"
+			},
+			{
+				"id": "241a63ee-ba80-4c17-9404-3ebb87350108",
+				"method": "GET"
+			},
+			{
+				"id": "45e40385-fe6c-41ea-8acd-8563871a6f40",
+				"method": "GET"
+			},
+			{
+				"id": "a0bd1a77-bf8a-416e-b69f-496f962f0c2c",
+				"method": "GET"
+			},
+			{
+				"id": "6e1f9400-1034-4958-be08-97ad24e3a0d2",
+				"method": "GET"
+			},
+			{
+				"id": "96efc3b8-57a0-4017-b901-7595fd696751",
+				"method": "GET"
+			}
+		]
+	}
+}

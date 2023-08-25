@@ -1,0 +1,310 @@
+{
+  "id": "0e82ab9e-b3f5-4c5c-8b2d-a29b396d0e14",
+  "version": "2.0",
+  "name": "Facebook",
+  "url": "https://www.konga.com",
+  "tests": [{
+    "id": "7730a2fa-3947-4141-9b78-a26186cf0156",
+    "name": "wrongUsername/password",
+    "commands": [{
+      "id": "2205f738-27c9-4ef0-8336-7118b59f2ed6",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8cdc3671-3e3c-4a07-b86c-035c163b5013",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "705x711",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "85826604-c617-4520-be52-52dc2c8c0650",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_39bff_3mvCL",
+      "targets": [
+        ["css=.\\_39bff_3mvCL", "css:finder"],
+        ["xpath=//section[@id='app-content-wrapper']/div[2]", "xpath:idRelative"],
+        ["xpath=//section/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dc4b61e5-3b86-4476-8031-0d2760155372",
+      "comment": "",
+      "command": "mouseDown",
+      "target": "id=jsSearchInput",
+      "targets": [
+        ["id=jsSearchInput", "id"],
+        ["name=search", "name"],
+        ["css=.\\_01038_2LFox #jsSearchInput", "css:finder"],
+        ["xpath=//input[@id='jsSearchInput']", "xpath:attributes"],
+        ["xpath=//section[@id='app-content-wrapper']/nav/div[2]/div[2]/div/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d9cc080a-cb95-43bc-a35f-47005ce6c1ba",
+      "comment": "",
+      "command": "mouseUp",
+      "target": "css=.a9ed8_1Hn0P",
+      "targets": [
+        ["css=.a9ed8_1Hn0P", "css:finder"],
+        ["xpath=//section[@id='app-content-wrapper']/nav", "xpath:idRelative"],
+        ["xpath=//nav", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0aafeef0-83d3-42bc-a181-03f00655473f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.a9ed8_1Hn0P",
+      "targets": [
+        ["css=.a9ed8_1Hn0P", "css:finder"],
+        ["xpath=//section[@id='app-content-wrapper']/nav", "xpath:idRelative"],
+        ["xpath=//nav", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7cf63d74-20f8-4aa3-82b9-a53b6cfc7468",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_18ce3_2niCI path",
+      "targets": [
+        ["css=.\\_18ce3_2niCI path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "39be306f-8097-4dba-b585-d81368ccf33a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.b8912_2L2qq > svg",
+      "targets": [
+        ["css=.b8912_2L2qq > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "f47fe778-06fd-4614-bdc1-003f6848ee9f",
+      "comment": "",
+      "command": "//mouseOver",
+      "target": "css=.e54e8_3NQiQ .f5e10_VzEXF",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4089cc95-0bfe-487c-9fb3-c894f8525a86",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.e54e8_3NQiQ .f5e10_VzEXF",
+      "targets": [
+        ["css=.e54e8_3NQiQ .f5e10_VzEXF", "css:finder"],
+        ["xpath=//img[@alt='Valentine Sale']", "xpath:img"],
+        ["xpath=//section[@id='app-content-wrapper']/nav/div/div/a/picture/img", "xpath:idRelative"],
+        ["xpath=//picture/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1e27d576-4a1d-4abc-929e-4f4c98a50d24",
+      "comment": "",
+      "command": "click",
+      "target": "css=.b8912_2L2qq path",
+      "targets": [
+        ["css=.b8912_2L2qq path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "2b89e068-4c1c-49a7-8891-13c57edc8deb",
+      "comment": "",
+      "command": "//click",
+      "target": "linkText=Login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0a900b71-edd0-45a4-9d0b-4680c61cbcbc",
+      "comment": "",
+      "command": "//mouseOver",
+      "target": "linkText=Login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0c06b826-7052-4095-ada4-992870e5669c",
+      "comment": "",
+      "command": "//mouseOut",
+      "target": "css=.\\_2aac2_3bwnD:nth-child(1) > .\\_0a08a_3czMG",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e4363921-4359-4059-9d70-9a895f725971",
+      "comment": "",
+      "command": "//click",
+      "target": "id=username",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ebf3d1f7-e8e3-45ff-bd02-f8da9908b08a",
+      "comment": "",
+      "command": "//type",
+      "target": "id=username",
+      "targets": [],
+      "value": "lisvhfj"
+    }, {
+      "id": "77dc98eb-0465-4d37-8e59-fe1e286a395f",
+      "comment": "",
+      "command": "//click",
+      "target": "id=password",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fa247943-35a8-43c8-b449-dd6e421d0860",
+      "comment": "",
+      "command": "//type",
+      "target": "id=password",
+      "targets": [],
+      "value": "passworf"
+    }, {
+      "id": "2b1d9279-b188-40a9-a586-1d5c3bdaebb3",
+      "comment": "",
+      "command": "//click",
+      "target": "css=.\\_0a08a_3czMG",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "71e3c378-02de-41a4-bb69-5883648997c8",
+      "comment": "",
+      "command": "//click",
+      "target": "css=.\\_41d61_2xTI6",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "54924dfd-2c24-4ad2-aa23-3c84e5be4452",
+      "comment": "",
+      "command": "//verifyText",
+      "target": "css=.\\_41d61_2xTI6",
+      "targets": [],
+      "value": "Login with\\nOR\\nEmail Address or Phone Number\\nThe username or password you have entered is incorrect. Please try again.\\nPassword\\nForgot Password?\\nShow\\nLogin"
+    }, {
+      "id": "d170f5df-be87-4e04-9544-c19989bcc0bb",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "21b2c252-a355-403e-a44a-6bfb00bdfc0a",
+    "name": "konga sinup",
+    "commands": [{
+      "id": "e441adb4-5b94-452f-8d18-ff69180a7923",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bf141536-07fe-40c5-abc9-2ebe9e89373c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "705x711",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ebc8b98d-9c28-4274-adcf-5f0c528a4359",
+      "comment": "",
+      "command": "click",
+      "target": "css=.b8912_2L2qq path",
+      "targets": [
+        ["css=.b8912_2L2qq path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "3d05bbf1-fb0e-45fe-a26b-9952a9224b38",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Signup",
+      "targets": [
+        ["linkText=Signup", "linkText"],
+        ["css=.\\_2aac2_3bwnD:nth-child(2) > .\\_0a08a_3czMG", "css:finder"],
+        ["xpath=//a[contains(text(),'Signup')]", "xpath:link"],
+        ["xpath=//section[@id='app-content-wrapper']/nav/div[3]/div/div/div[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/account/signup')]", "xpath:href"],
+        ["xpath=//div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Signup')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5ef8f289-3fe6-4a32-be8a-a1270cbee6ef",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.\\_2aac2_3bwnD:nth-child(2) > .\\_0a08a_3czMG",
+      "targets": [
+        ["css=.\\_2aac2_3bwnD:nth-child(2) > .\\_0a08a_3czMG", "css:finder"],
+        ["xpath=//a[contains(text(),'Signup')]", "xpath:link"],
+        ["xpath=//section[@id='app-content-wrapper']/nav/div[3]/div/div/div[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/account/signup')]", "xpath:href"],
+        ["xpath=//div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Signup')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "27f7332b-0bb0-4b8d-87aa-596fa29200ae",
+      "comment": "",
+      "command": "//type",
+      "target": "id=firstname",
+      "targets": [],
+      "value": "elizabeth"
+    }, {
+      "id": "62305738-a69a-4093-b5f2-70694acbc825",
+      "comment": "",
+      "command": "//type",
+      "target": "id=lastname",
+      "targets": [],
+      "value": "oluwatoyin"
+    }, {
+      "id": "e5ea3d14-82ad-4a42-bc78-dc79668f7df2",
+      "comment": "",
+      "command": "//type",
+      "target": "id=email",
+      "targets": [],
+      "value": "lizzyadeyeni12@gmail.com"
+    }, {
+      "id": "89a8b1d7-cb8c-42c6-a1ee-ddba31538d42",
+      "comment": "",
+      "command": "//type",
+      "target": "id=phone",
+      "targets": [],
+      "value": "07031839187"
+    }, {
+      "id": "b8fda885-fc17-4aa3-a8ce-462e60c76f5f",
+      "comment": "",
+      "command": "//type",
+      "target": "id=password",
+      "targets": [],
+      "value": "123ade"
+    }, {
+      "id": "812682a1-c944-41a2-b0ba-b4f18276af92",
+      "comment": "",
+      "command": "//type",
+      "target": "id=pin",
+      "targets": [],
+      "value": "3827"
+    }, {
+      "id": "abb0f4e4-bf12-4014-8cbe-e97f66273842",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "a7eeadbf-0b12-47a7-b098-c0d060579495",
+    "name": "Konga Test",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["7730a2fa-3947-4141-9b78-a26186cf0156", "21b2c252-a355-403e-a44a-6bfb00bdfc0a"]
+  }],
+  "urls": ["https://www.google.com/", "https://www.konga.com/"],
+  "plugins": []
+}
